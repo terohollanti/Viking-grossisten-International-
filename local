@@ -1,0 +1,5 @@
+git clone https://github.com/terohollanti/Vikinggrossisteninternational.git \
+&& cd Vikinggrossisteninternational \
+&& echo "PUBLIC_STORE_DOMAIN=viking-grossisten-international.myshopify.com\nPUBLIC_STOREFRONT_API_TOKEN=641274fd322ed24a233f6af0c85f266f\nSESSION_SECRET=LOCAL_SECRET" >> .env \
+&& yarn \
+&& yarn dev
